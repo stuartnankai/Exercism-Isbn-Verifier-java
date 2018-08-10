@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IsbnVerifierTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-08-10T08:22:05" hostname="MacBook-Pro-7.lan" time="0.009">
+  <properties/>
+  <testcase name="isbnWithoutCheckDigit" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="invalidCharacterInIsbn" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="emptyIsbn" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="validIsbnNumberWithCheckDigitOfTen" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="checkDigitIsACharacterOtherThanX" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="tooLongIsbnAndNoDashes" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="xIsOnlyValidAsACheckDigit" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="inputIsNineCharacters" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="isbnWithoutSeparatingDashesAndXAsCheckDigit" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="tooLongIsbn" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="validIsbnNumber" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="isbnWithoutCheckDigitAndDashes" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="validIsbnWithoutSeparatingDashes" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="checkDigitOfXShouldNotBeUsedForZero" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="invalidIsbnCheckDigit" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="invalidCharactersAreNotIgnored" classname="IsbnVerifierTest" time="0.0"/>
+  <system-out><![CDATA[3
+5
+9
+8
+2
+1
+5
+0
+3
+5
+9
+8
+2
+1
+5
+0
+7
+1
+3
+4
+4
+5
+6
+7
+2
+3
+5
+9
+8
+2
+1
+5
+0
+7
+3
+5
+9
+8
+2
+1
+5
+0
+8
+3
+5
+9
+8
+2
+1
+5
+0
+3
+5
+9
+8
+2
+1
+5
+0
+8
+3
+5
+9
+8
+2
+1
+5
+1
+5
+3
+5
+9
+8
+2
+1
+5
+0
+8
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
